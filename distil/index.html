@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>moonshiners</title>
+<style type="text/css">
+ body { 
+   background-color: black; 
+   color: white; 
+   width: 800px; margin: auto;
+   font: 12pt/14pt Arial, Helvetica;
+  }
+ .logo {text-align: center;} 
+ .btnbar {text-align: center; padding: 10px; background-color: black; }
+ .bottom {border-top: 1px solid red;}
+ .brdrtop {border-top: 1px solid red; margin-bottom: 10px;}
+ .defn {font-style: italic; font-weight: bold; text-decoration: underline;}
+ .lftpnl {
+          float: left; 
+          width: 150px;
+          padding-top: 150px;
+          padding-left: 150px;
+          text-align: right;
+          margin-right: 10px;
+        }
+ .imgholder {text-align: left;} 
+
+ .kinopoisk {
+     float: left; width: 200px; text-align: right; margin-right: 10px;     
+ }
+ .opisalovo {text-align: left; padding-right: 20px; padding-top: 20px; padding-left: 240px;}
+ .doomy {clear: both;}
+ .login { margin: 30px; border: 1px solid red; padding: 10px;}
+ .thelabel {
+   float: left; width: 292px; text-align: right; margin-right: 20px;
+ }
+ .thefield { text-align: left; adding-left: 300px;}
+ .btndo {padding-top: 10px; text-align: center;}
+ .redborder {border: 1px solid red;}
+ 
+ a:link {color: white;}
+ a:visited {color: white;}
+ a:hover {color: yellow;} 
+ 
+ .btnbar a:link {color: white; font-weight: bold;}
+ .btnbar a:visited {color: white; font-weight: bold; text-decoration: none;}
+ .btnbar a:hover {color: yellow; font-weight: bold;} 
+</style>
+</head>
+<body>
+ <div class="logo">
+  <img src="images/logomod.jpg" alt="логотип"> 
+ </div>
+ <div class="btnbar">
+  <a href="index.html">Home</a>
+  <span>&nbsp;|&nbsp;</span>
+  <a href="#media">Media</a>
+  <span>&nbsp;|&nbsp;</span>
+  <a href="#member">Members area</a>
+ </div>
+ <div id="home" class="brdrtop">
+  <h2>Дистилляция</h2>
+  <p>
+    <span class="defn">Дистилляция</span>
+    (лат. distillatio — стекание каплями) — перегонка, испарение жидкости с последующим охлаждением и конденсацией паров.
+    <br>
+    Продуктом дистилляции является конденсат или остаток (или и то, и другое) — в зависимости от дистиллируемого вещества и целей процесса.
+  </p>  
+  <p>
+   Подробнее смотри 
+   <a target="out"
+      href="https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D1%82%D0%B8%D0%BB%D0%BB%D1%8F%D1%86%D0%B8%D1%8F">здесь</a>
+  </p>
+  <p>
+   <span class="defn">Синонимы: </span>перегонка, возгонка, сублимация; разделение, перекурка, ректификация, дистиллирование.
+  </p> 
+  <div class="pictandtitle1">
+   <div class="lftpnl">
+    Выдающийся дистиллятор Popcorn Sutton.
+   </div>
+   <div class="imgholder">
+    <img src="images/moonshiner.jpg" alt="Самогонщик Popcorn"> 
+   </div>
+  </div>
+  <div class="doomy"></div>
+ </div>
+ <div id="media" class="brdrtop">
+  <h2>Медиатека</h2>
+  <div class="pictandtitle1">
+   <div class="kinopoisk">
+    <img src="images/poster-180x270.jpg" alt="Картинко">
+   </div>
+   <div class="opisalovo">
+    <p>Псевдодокументальный сериал "Moonshiners", 
+   рассказывающий про нелегкую жизнь самогонщиков в США. Сколько стоит легализация производства и как борется с ними правительство. 
+   За подробностями перейдите по 
+   <a href="http://www.kinopoisk.ru/film/686346/" target="out">ссылке</a>. </p>
+   </div>
+  </div>
+  <div class="doomy"></div>
+ </div>
+ <div id="member" class="brdrtop">
+  <h2>Членская зона</h2>
+  <p>Для просмотра материалов членской зоны необходима авторизация:</p>
+  <form>
+   <div class="login">       
+    <div class="line">	 
+	  <div class="thelabel">Имя:</div>
+	  <div class="thefield"><input type="text" id="usrname" size="10" maxlength="10" class="redborder"></div>
+	</div>
+    <div class="doomy"></div>	
+	<div class="line">
+	  <div class="thelabel">Пароль:</div>
+	  <div class="thefield"><input type="password" id="pwd" size="10" maxlength="10" class="redborder"></div>
+	</div>
+	<div class="doomy"></div> 
+    <div class="btndo">
+	  <input type="submit" value="Войти" class="redborder">
+	</div>	
+   </div>
+  </form>
+ </div>
+ <div class="bottom">
+  <p>
+   <a href="#top">наверх</a>
+  </p>
+ </div> 
+</body>
+</html>
