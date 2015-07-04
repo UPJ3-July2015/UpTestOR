@@ -28,7 +28,7 @@
  .thelabel {
    float: left; width: 292px; text-align: right; margin-right: 20px;
  }
- .thefield { text-align: left; adding-left: 300px;}
+ .thefield { text-align: left; padding-left: 300px;}
  .btndo {padding-top: 10px; text-align: center;}
  .redborder {border: 1px solid red;}
  
