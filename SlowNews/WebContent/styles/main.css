@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+body {
+	color: black;
+	background-color: white;
+	font: 12pt/20pt Arial, Helvetica;
+}
+h1 {
+	border-bottom: solid 1px red;
+	color: gray;
+}
+nav {
+	
+}
+nav a {
+	text-decoration: none;
+}
+nav a:link {
+	color: black;
+	background-color: white;
+}
+nav a:visited {
+	color: black;
+	background-color: white;
+}
+nav a:hover {
+	color: yellow;
+	background-color: black;
+}
+nav a:active {
+	color: yellow;
+	background-color: black;
+}
